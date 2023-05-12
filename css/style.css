@@ -595,6 +595,16 @@ h1:hover{
         display: block;
     }
 
+    .switch{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .portfolio{
+        min-height: 100px;
+    }
+    
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -609,6 +619,7 @@ h1:hover{
 
     .navbar.active {
         display: block;
+        text-align: center;
     }
 
     .navbar a {
@@ -653,6 +664,11 @@ h1:hover{
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experience-container{
+        padding: 8rem 5rem;
+        margin: 2rem;
     }
 }
 
