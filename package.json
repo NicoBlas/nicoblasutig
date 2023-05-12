@@ -1,5 +1,5 @@
 {
-  "name": "pruebitagit",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoaquinDilernia/PortafolioDiLernia.git"
+    "url": "git+https://github.com/NicoBlas"
   },
-  "author": "",
+  "author": "Blas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoaquinDilernia/PortafolioDiLernia/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/JoaquinDilernia/PortafolioDiLernia#readme",
+  "homepage": "",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"

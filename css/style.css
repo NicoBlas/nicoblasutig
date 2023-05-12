@@ -20,7 +20,7 @@
     --bg-color: #000000;
     --second-bg-color: #212529;
     --text-color: #fff;
-    --main-color: #f5e1a4;
+    --main-color: #2596be;
 }
 
 
@@ -96,6 +96,7 @@ section{
 }
 
 
+
 .switch{ 
     float: right;
     background: var(--bg-color); 
@@ -150,6 +151,10 @@ section{
 
 }
 /* home section */
+
+.home-img img{
+    border-radius: 50px;
+}
 
 .home {
     display: flex;
@@ -249,6 +254,7 @@ span {
     color: var(--main-color);
     padding-top: 15px;
 }
+
 
 .skill-media img {
     display: inline-flex;
@@ -354,7 +360,7 @@ h1:hover{
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -499,6 +505,56 @@ h1:hover{
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+
+.experience{
+    margin: auto;
+    max-width: 1500px;
+}
+
+.borderwhite{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.borderwhite img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid var(--main-color);
+    -webkit-box-shadow: 0px 0px 56px 9px var(--main-color); 
+    box-shadow: 0px 0px 56px 9px var(--main-color);
+    border-radius: 20px;
+    gap:5rem;
+    padding: 8rem 18rem;
+    
+}
+
+.experience-box h4{
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+}
+
+.experience-box h5{
+    font-size: 2.5rem;
+}
+
+.experience-box p{
+    font-size: 2rem;
+    color: white;
+}
+
+/* TECHS */
+
 
 /* breakpoints */
 

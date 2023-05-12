@@ -1,5 +1,10 @@
 // toggle icon navbar
 
+const circle = document.querySelector('.circle');
+let progress = 0;
+
+
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -50,14 +55,14 @@ let header = document.querySelector('header');
     });
 
     ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
-    ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom'});
+    ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form, .experience' , { origin: 'bottom'});
     ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left'});
     ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 
 // typed js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Full Stack Developer', 'Front-End Developer', 'Back-End Developer'],
+    strings: ['Full Stack Developer', 'Passionate Coder', 'Fast learner'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
