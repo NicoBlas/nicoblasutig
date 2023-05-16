@@ -62,7 +62,7 @@ let header = document.querySelector('header');
 // typed js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Full Stack Developer', 'Passionate Coder', 'Fast learner'],
+    strings: ['Full Stack Developer', 'Problem solver', 'Passionate Coder', 'Fast learner'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -78,3 +78,4 @@ btnSwitch.addEventListener('click', () => {
 btnSwitch.classList.toggle('active');
 
 });
+
